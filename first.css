@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,600;1,400&display=swap');
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    
+}
+.head1{
+    background-image: url(./images/bg-header-desktop.png);
+}
+#imgA{
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    left: 47%;
+
+
+}
+
+.head2{
+    text-align: center;
+}
+.keeptrack{
+    text-align: center;
+    
+}
+
+#img2{
+    width: 40%;
+    height: 10%;
+    margin-left: 10%;
+}
+.quicksearch{
+    display: flex;
+}
+.quick{
+    margin-left: 10%;
+}
+
+#img3
+{
+     width: 40%;
+     height: 30%;
+}
+.section1{
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+.logos{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(133, 137, 135, 0.357);
+    
+    padding: 3%;
+    margin-bottom: -10;
+    
+}
+.bottomItems{
+    
+    padding: 5%;
+    align-items: center;
+    
+
+}
+.faqs{
+    display: flex;
+  
+    margin-left: -45%;
+    
+
+   
+    
+}
+#bottomlogo{
+    width: 4rem;
+    height: 4rem;
+}
+#link{
+    text-decoration: none;
+    color: black;
+    
+}
+#facebook{
+    width: 20%;
+}
+#btn1{
+    background-color: rgba(79, 198, 162, 0.874);
+    border-radius: 20px;
+    
+    border: none;
+    height: 2rem;
+    width: 20%;
+}
+#btn2{
+    background-color: rgba(96, 125, 238, 0.909);
+    border-radius: 20px;
+    border: none;
+    height: 2rem;
+    width: 20%;
+}
+#btn3{
+    background-color: rgba(79, 198, 162, 0.874);
+    border-radius: 20px;
+    border: none;
+    height: 2rem;
+    width: 20;
+}
+#btn4{
+    background-color: rgba(96, 125, 238, 0.909);
+    border-radius: 20px;
+    border: none;
+    height: 2rem;
+    width: 20;
+}
+.download{
+    margin-bottom: 5%;
+}
+.buttons1{
+    text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+    .logos{
+      display: flex;
+      flex-direction: column;
+        
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .download{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #btn3{
+        margin-bottom: 5%;
+    }
+    .quicksearch{
+        display: flex;
+        flex-direction: column;
+    }
+    #img2{
+        width: 80%;
+    }
+    .buttons1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #btn1{
+        width: 20rem;
+       
+        
+    }
+    #btn2{
+        width: 20rem;
+        
+    }
+
+}
